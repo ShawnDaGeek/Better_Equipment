@@ -63,6 +63,11 @@
           "Id": "Workbench_Tinkering",
           "Icon": "Icons/CraftingCategories/Workbench/Deco_Target.png",
           "Name": "server.benchCategories.workbench.tinkering"
+        },
+        {
+          "Id": "Workbench_Trade",
+          "Icon": "Icons/CraftingCategories/Workbench/Containers.png",
+          "Name": "server.benchCategories.workbench.trade"
         }
       ],
       "LocalOpenSoundEventId": "SFX_Workbench_Open",
