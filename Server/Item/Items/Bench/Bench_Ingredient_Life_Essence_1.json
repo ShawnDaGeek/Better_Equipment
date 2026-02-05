@@ -5,7 +5,7 @@
   },
   "Variant": true,
   "Parent": "Ingredient_Life_Essence_Concentrated",
-  "ItemLevel": 1,
+  "ItemLevel": 15,
   "Icon": "Icons/ItemsGenerated/Ingredient_Life_Essence_Concentrated.png",
   "Recipe": {
     "TimeSeconds": 1,
@@ -45,8 +45,10 @@
       {
         "Type": "Crafting",
         "Id": "Workbench",
+        "RequiredTierLevel": 2,
         "Categories": [
-          "Workbench_God"
+          "Workbench_Crafting"
+          
         ]
       }
     ],

@@ -44,7 +44,6 @@
         {
           "Type": "ApplyEffect",
           "EffectId": "Food_Instant_Heal_T3"
-          
         },
         "HealthRegen_TierCheck_T3",
         "FruitVeggie_TierCheck_T3"

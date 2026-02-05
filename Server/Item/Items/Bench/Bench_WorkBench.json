@@ -6,11 +6,11 @@
   "Recipe": {
     "Input": [
       {
-        "Quantity": 4,
+        "Quantity": 5,
         "ResourceTypeId": "Wood_Trunk"
       },
       {
-        "Quantity": 3,
+        "Quantity": 4,
         "ResourceTypeId": "Rock"
       }
     ],
@@ -63,26 +63,6 @@
           "Id": "Workbench_Tinkering",
           "Icon": "Icons/CraftingCategories/Workbench/Deco_Target.png",
           "Name": "server.benchCategories.workbench.tinkering"
-        },
-        {
-          "Id": "Workbench_QOL",
-          "Icon": "Icons/CraftingCategories/Workbench/Housing.png",
-          "Name": "server.benchCategories.workbench.QOL"
-        },
-        {
-          "Id": "Workbench_Advanced",
-          "Icon": "Icons/CraftingCategories/Workbench/Containers.png",
-          "Name": "server.benchCategories.workbench.advanced"
-        },
-        {
-          "Id": "Workbench_Legend",
-          "Icon": "Icons/CraftingCategories/Workbench/Storage.png",
-          "Name": "server.benchCategories.workbench.legend"
-        },
-        {
-          "Id": "Workbench_God",
-          "Icon": "Icons/CraftingCategories/Workbench/Chest_Legendary_Large.png",
-          "Name": "server.benchCategories.workbench.god"
         }
       ],
       "LocalOpenSoundEventId": "SFX_Workbench_Open",
@@ -103,7 +83,7 @@
               },
               {
                 "ItemId": "Ingredient_Bar_Iron",
-                "Quantity": 20
+                "Quantity": 25
               },
               {
                 "ItemId": "Ingredient_Fabric_Scrap_Linen",

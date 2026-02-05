@@ -44,11 +44,9 @@
         {
           "Type": "ApplyEffect",
           "EffectId": "Food_Instant_Heal_T3"
-          
         },
         "HealthRegen_TierCheck_T3",
-        "Meat_TierCheck_T3",
-
+        "Meat_TierCheck_T3"
       ]
     }
   },
