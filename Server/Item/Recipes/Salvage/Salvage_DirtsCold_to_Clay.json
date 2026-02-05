@@ -1,0 +1,39 @@
+{
+  "Input": [
+    {
+      "ItemId": "Soil_Dirt_Cold",
+      "Quantity": 2
+    }
+  ],
+  "PrimaryOutput": {
+      "ItemId": "Soil_Sand",
+      "Quantity": 2
+  },
+  "Output": [
+    {
+          "Weight": 100,
+          "ItemId": "Soil_Sand",          
+          "Quantity": 2
+
+    },
+    {                
+          "Weight": 30,
+          "ItemId": "Rubble_Stone",
+          "Quantity": 2
+
+    },
+    {
+          "Weight": 30,
+          "ItemId": "Ingredient_Charcoal",
+          "Quantity": 2
+
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Salvagebench"
+    }
+  ],
+  "TimeSeconds": 4
+}

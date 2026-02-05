@@ -1,0 +1,43 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Weight": 100.0,
+        "Item": {
+          "ItemId": "Plant_Crop_Corn_Item",
+          "QuantityMin": 2,
+          "QuantityMax": 4
+        }
+      },
+      {
+        "Type": "Single",
+        "Weight": 100.0,
+        "Item": {
+          "ItemId": "Ingredient_Life_Essence",
+          "QuantityMin": 3,
+          "QuantityMax": 7
+        }
+      },
+      {
+        "Type": "Single",
+        "Weight": 10,
+        "Item": {
+          "ItemId": "Plant_Seeds_Corn_Eternal",
+          "QuantityMin": 1,
+          "QuantityMax": 2
+        }
+      },
+      {
+        "Type": "Single",
+        "Weight": 10,
+        "Item": {
+          "ItemId": "Plant_Seeds_Corn",
+          "QuantityMin": 1,
+          "QuantityMax": 2
+        }
+      }
+    ]
+  }
+}

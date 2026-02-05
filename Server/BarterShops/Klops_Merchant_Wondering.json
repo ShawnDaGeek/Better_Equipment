@@ -1,0 +1,724 @@
+{
+  "DisplayNameKey": "server.barter.klops_merchant_wondering.title",
+  "RefreshInterval": {
+    "Days": 1
+  },
+  "RestockHour": 1,
+  "TradeSlots": [
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": { "ItemId": "Weapon_Gun", "Quantity": 1 },
+        "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 50 }],
+        "Stock": 10
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": { "ItemId": "Tool_Pickaxe_Mithril", "Quantity": 1 },
+        "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 50 }],
+        "Stock": 10
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": { "ItemId": "Ingredient_Spices", "Quantity": 3 },
+        "Input": [{ "ItemId": "Ingredient_Life_Essence", "Quantity": 20 }],
+        "Stock": 10
+      }
+    },    
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": { "ItemId": "Ingredient_Salt", "Quantity": 3 },
+        "Input": [{ "ItemId": "Ingredient_Life_Essence", "Quantity": 20 }],
+        "Stock": 10
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": { "ItemId": "Ingredient_Dough", "Quantity": 3 },
+        "Input": [{ "ItemId": "Ingredient_Life_Essence", "Quantity": 20 }],
+        "Stock": 10
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": { "ItemId": "Furniture_Construction_Sign", "Quantity": 1 },
+        "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 20 }],
+        "Stock": 3
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": { "ItemId": "Ingredient_Life_Essence", "Quantity": 100 },
+        "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+        "Stock": 3
+      }
+    },
+    {
+      "Type": "Fixed",
+      "Trade": {
+        "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+        "Input": [{ "ItemId": "Ingredient_Life_Essence", "Quantity": 100 }],
+        "Stock": 3
+      }
+    },
+    {
+      "Type": "Pool",
+      "SlotCount": 9,
+      "Trades": [
+        {
+          "Weight": 70,
+          "Output": { "ItemId": "Potion_Regen_Mana_Large", "Quantity": 2 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [10, 50]
+        },
+        {
+          "Weight": 70,
+          "Output": { "ItemId": "Potion_Regen_Stamina_Large", "Quantity": 2 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [10, 50]
+        },
+        {
+          "Weight": 70,
+          "Output": { "ItemId": "Potion_Regen_Health_Large", "Quantity": 2 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [10, 50]
+        },
+        {
+          "Weight": 70,
+          "Output": { "ItemId": "Potion_Regen_Stamina", "Quantity": 5 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence", "Quantity": 50 }],
+          "Stock": [10, 100]
+        },
+        {
+          "Weight": 50,
+          "Output": { "ItemId": "Potion_Regen_Health", "Quantity": 5 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence", "Quantity": 50 }],
+          "Stock": [10, 100]
+        },
+        {
+          "Weight": 30,
+          "Output": { "ItemId": "Potion_Regen_Mana", "Quantity": 5 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence", "Quantity": 50 }],
+          "Stock": [10, 100]
+        },
+        {
+          "Weight": 30,
+          "Output": { "ItemId": "Potion_Empty", "Quantity": 10 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [100, 200]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Potion_Empty_Large", "Quantity": 5 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [40, 200]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Potion_Empty_Small", "Quantity": 20 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [40, 200]
+        }
+      ]
+    },
+    {
+      "Type": "Pool",
+      "SlotCount": 12,
+      "Trades": [
+        {
+          "Weight": 70,
+          "Output": { "ItemId": "Recipe_Food_Pie_Apple", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 2 }],
+          "Stock": [1]
+        },
+        {
+          "Weight": 70,
+          "Output": { "ItemId": "Recipe_Food_Pie_Pumpkin", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 2 }],
+          "Stock": [1]
+        },
+        {
+          "Weight": 70,
+          "Output": { "ItemId": "Recipe_Food_Salad_Caesar", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 2 }],
+          "Stock": [1]
+        },
+        {
+          "Weight": 70,
+          "Output": { "ItemId": "Recipe_Food_Pie_Meat", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 3 }],
+          "Stock": [1]
+        },
+        {
+          "Weight": 50,
+          "Output": { "ItemId": "Plant_Crop_Berry_Block", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence", "Quantity": 30 }],
+          "Stock": [10, 20]
+        },
+        {
+          "Weight": 30,
+          "Output": { "ItemId": "Plant_Crop_Berry_Winter_Block", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence", "Quantity": 50 }],
+          "Stock": [10, 20]
+        },
+        {
+          "Weight": 30,
+          "Output": { "ItemId": "Plant_Crop_Berry_Wet_Block", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence", "Quantity": 50 }],
+          "Stock": [10, 20]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Food_Salad_Berry", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence", "Quantity": 15 }],
+          "Stock": [4, 8]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Food_Salad_Mushroom", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence", "Quantity": 15 }],
+          "Stock": [4, 8]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Food_Kebab_Meat", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence", "Quantity": 15 }],
+          "Stock": [4, 8]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Food_Kebab_Mushroom", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence", "Quantity": 15 }],
+          "Stock": [4, 8]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Food_Kebab_Vegetable", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence", "Quantity": 15 }],
+          "Stock": [4, 8]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Food_Kebab_Fruit", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence", "Quantity": 15 }],
+          "Stock": [4, 8]
+        }
+      ]
+    },
+    {
+      "Type": "Pool",
+      "SlotCount": 33,
+      "Trades": [
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Tool_Sickle_Steel_Rusty", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 10 }],
+          "Stock": [3]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Tool_Hatchet_Thorium", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 }],
+          "Stock": [2]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Tool_Pickaxe_Thorium", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 }],
+          "Stock": [2]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Tool_Shovel_Thorium", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 }],
+          "Stock": [2]
+        },        
+        
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Armor_ThoriumAlloy_Head", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 }],
+          "Stock": [3]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Armor_ThoriumAlloy_Chest", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 }],
+          "Stock": [2]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Armor_ThoriumAlloy_Hands", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 }],
+          "Stock": [2]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Armor_ThoriumAlloy_Legs", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 }],
+          "Stock": [2]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Weapon_Shield_Thorium", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 }],
+          "Stock": [2]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Glider_Max", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 }],
+          "Stock": [2]
+        },
+        
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ore_Cobalt", "Quantity": 4 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 }],
+          "Stock": [20]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ore_Adamantite", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 }],
+          "Stock": [10]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ore_Silver", "Quantity": 4 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 }],
+          "Stock": [12]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ore_Mithril", "Quantity": 3 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 }],
+          "Stock": [20]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ore_Gold", "Quantity": 4 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 }],
+          "Stock": [12]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ore_Onyxium", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 }],
+          "Stock": [4]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ore_Cobalt", "Quantity": 4 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 }],
+          "Stock": [20]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Rock_Gem_Emerald", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 }],
+          "Stock": [5]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Hide_Dark", "Quantity": 2 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [10]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Hide_Heavy", "Quantity": 2 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [20]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Hide_Medium", "Quantity": 5 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [30]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Hide_Light", "Quantity": 5 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [40]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Hide_Prismic", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 2 }],
+          "Stock": [2]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Hide_Scaled", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 2 }],
+          "Stock": [2]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Hide_Soft", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [8]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Hide_Storm", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 2 }],
+          "Stock": [2]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Fabric_Scrap_Wool", "Quantity": 5 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [20]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Fabric_Scrap_Cotton", "Quantity": 2 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [20]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Fabric_Scrap_Silk", "Quantity": 2 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [20]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Fabric_Scrap_Cindercloth", "Quantity": 2 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 2 }],
+          "Stock": [8]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Fabric_Scrap_Prismaloom", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 3 }],
+          "Stock": [4]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Fabric_Scrap_Stormsilk", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 3 }],
+          "Stock": [5]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Chitin_Sturdy", "Quantity": 4 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [12]
+        }
+      ]
+    },
+    {
+      "Type": "Pool",
+      "SlotCount": 9,
+      "Trades": [
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Fire_Essence", "Quantity": 5 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [10, 50]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Ice_Essence", "Quantity": 5 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [10, 50]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Lightning_Essence", "Quantity": 5 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [10, 50]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Sac_Venom", "Quantity": 5 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [10, 50]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Void_Essence", "Quantity": 5 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [10, 50]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Water_Essence", "Quantity": 5 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 }],
+          "Stock": [10, 50]
+        }
+      ]
+    },
+    {
+      "Type": "Pool",
+      "SlotCount": 18,
+      "Trades": [
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Utility_Helipack", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 5 }],
+          "Stock": [1, 5]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Utility_Leather_Quiver", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 5 }],
+          "Stock": [1, 5]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Armor_MithrilAlloy_Legs", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 50 }],
+          "Stock": [1, 5]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Armor_MithrilAlloy_Head", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 50 }],
+          "Stock": [1, 5]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Armor_MithrilAlloy_Hands", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 50 }],
+          "Stock": [1, 5]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Armor_MithrilAlloy_Chest", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 50 }],
+          "Stock": [1, 5]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Armor_OnyxiumAlloy_Chest", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 100 }],
+          "Stock": [1, 5]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Armor_OnyxiumAlloy_Hands", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 100 }],
+          "Stock": [1, 5]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Armor_OnyxiumAlloy_Head", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 100 }],
+          "Stock": [1, 5]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Armor_OnyxiumAlloy_Legs", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 100 }],
+          "Stock": [1, 5]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Armor_PrismaAlloy_Chest", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 100 }],
+          "Stock": [1, 5]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Armor_PrismaAlloy_Hands", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 100 }],
+          "Stock": [1, 5]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Armor_PrismaAlloy_Head", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 100 }],
+          "Stock": [1, 5]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Armor_PrismaAlloy_Legs", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 100 }],
+          "Stock": [1, 5]
+        }
+      ]
+    },
+    {
+      "Type": "Pool",
+      "SlotCount": 18,
+      "Trades": [
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Leather_Light", "Quantity": 100 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Leather_Medium", "Quantity": 50 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Leather_Heavy", "Quantity": 25 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Leather_Soft", "Quantity": 10 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Leather_Scaled", "Quantity": 10 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Leather_Storm", "Quantity": 10 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Leather_Prismic", "Quantity": 10 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Leather_Dark", "Quantity": 10 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Food_Fish_Grilled", "Quantity": 25 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Food_Wildmeat_Cooked", "Quantity": 25 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Ingredient_Salt", "Quantity": 25 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Rock_Salt", "Quantity": 5 }],
+          "Stock": [100, 500]
+        }
+      ]
+    },
+    {
+      "Type": "Pool",
+      "SlotCount": 15,
+      "Trades": [
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Plant_Seeds_Aubergine_Eternal", "Quantity": 10 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Plant_Seeds_Carrot_Eternal", "Quantity": 10 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Plant_Seeds_Cauliflower_Eternal", "Quantity": 10 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Plant_Seeds_Chilli_Eternal", "Quantity": 10 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Plant_Seeds_Corn_Eternal", "Quantity": 10 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Plant_Seeds_Cotton_Eternal", "Quantity": 10 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Plant_Seeds_Lettuce_Eternal", "Quantity": 10 }],
+          "Stock": [100, 500]
+        },        
+        
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Plant_Seeds_Pumpkin_Eternal", "Quantity": 10 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Plant_Seeds_Onion_Eternal", "Quantity": 10 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 20,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Plant_Seeds_Potato_Eternal", "Quantity": 10 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Plant_Seeds_Rice_Eternal", "Quantity": 10 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Plant_Seeds_Tomato_Eternal", "Quantity": 10 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Plant_Seeds_Turnip_Eternal", "Quantity": 10 }],
+          "Stock": [100, 500]
+        },
+        {
+          "Weight": 40,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1 },
+          "Input": [{ "ItemId": "Plant_Seeds_Wheat_Eternal", "Quantity": 10 }],
+          "Stock": [100, 500]
+        }
+      ]
+    }
+  ]
+}

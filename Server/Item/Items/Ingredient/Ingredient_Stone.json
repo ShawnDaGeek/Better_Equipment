@@ -1,0 +1,34 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Rock_Stone.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Rock_Stone.png",
+  "Categories": [
+    "Blocks.Stone"
+  ],
+  "Model": "Items/Ingredients/Stick.blockymodel",
+  "Texture": "BlockTextures/Rock_Stone.png",
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1.21,
+    "Rotation": [
+      67,
+      330,
+      0
+    ],
+    "Translation": [
+      1.3,
+      -1
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Foliage",
+  "DropOnDeath": true
+}

@@ -1,0 +1,20 @@
+{
+  "Group": "dev.ShawnDaGeek",
+  "Name": "Better_Equipment",
+  "Version": "0.1.0",
+  "Description": "QOL for tools, weapons, armor and other equipment.\n\n<i>Includes buffs, better duribility, longer and faster flight for glider.</i>",
+  "Authors": [
+    {
+      "Name": "ShawnDaGeek",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

@@ -1,0 +1,55 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ingredient_Life_Essence_Concentrated.name",
+    "Description": "server.items.Ingredient_Life_Essence_Concentrated.description"
+  },
+  "Variant": true,
+  "Parent": "Ingredient_Life_Essence_Concentrated",
+  "ItemLevel": 1,
+  "Icon": "Icons/ItemsGenerated/Ingredient_Life_Essence_Concentrated.png",
+  "Recipe": {
+    "TimeSeconds": 1,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 100
+      },
+      {
+        "Quantity": 10,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "Quantity": 10,
+        "ResourceTypeId": "Rock"
+      },
+      {
+        "Quantity": 10,
+        "ResourceTypeId": "Rubble"
+      },
+      {
+        "Quantity": 10,
+        "ResourceTypeId": "Wood_All"
+      },
+      {
+        "Quantity": 10,
+        "ResourceTypeId": "Sands"
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Ingredient_Life_Essence_Concentrated",
+        "Quantity": 5
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Workbench",
+        "Categories": [
+          "Workbench_God"
+        ]
+      }
+    ],
+    "OutputQuantity": 5
+  }
+}

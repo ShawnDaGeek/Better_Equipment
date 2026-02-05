@@ -1,0 +1,86 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Glider_Max.name",
+    "Description": "server.items.Glider_Max.description"
+  },
+  "Parent": "Template_Glider",
+  "ItemLevel": 100,
+  "Quality": "Legendary",
+  "Glider": {
+    "FallSpeedMultiplier": 0.25,
+    "HorizontalSpeedMultiplier": 0.25,
+    "TerminalVelocity": -16,
+    "Speed": 100
+  },
+    "Interactions": {
+    "Primary": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "StatsCondition",
+          "Costs": {
+            "Stamina": 1
+          },
+          "Next": {
+            "Type": "EffectCondition",
+            "EntityEffectIds": [
+              "Stamina_Broken"
+            ],
+            "Match": "None",
+            "Next": {
+              "Type": "ToggleGlider"
+            }
+          }
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "StatsCondition",
+          "Costs": {
+            "GlidingActive": 1
+          },
+          "Next": {
+            "Type": "ApplyForce",
+            "Direction": {
+              "X": 0,
+              "Y": 0,
+              "Z": -1
+            },
+            "AdjustVertical": false,
+            "WaitForGround": false,
+            "Force": 5,
+            "Next": {
+              "Type": "ChangeStat",
+              "StatModifiers": {
+                "Stamina": -1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "SwapFrom": {
+      "Interactions": [
+        {
+          "Type": "StatsCondition",
+          "Costs": {
+            "GlidingActive": 1
+          },
+          "Next": {
+            "Type": "ToggleGlider"
+          }
+        },
+        {
+          "Type": "ChangeActiveSlot"
+        }
+      ]
+    }
+  },
+    "Light": {
+    "Radius": 99,
+    "Color": "#360101"
+  }
+  
+}

@@ -1,0 +1,155 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Soil_Gravel_Mossy_Half.name"
+  },
+  "Parent": "Soil_Gravel",
+  "Set": "Soil_Half",
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Parent": "Half_Block",
+          "Matchers": [
+            {
+              "Block": {
+                "Id": "Soil_Gravel_Sand_Half",
+                "State": "default"
+              },
+              "Face": "Up",
+              "StaticFace": false
+            }
+          ]
+        }
+      ],
+      "Cooldown": {
+        "Id": "BlockInteraction",
+        "Cooldown": 0.3,
+        "ClickBypass": true
+      },
+      "Settings": {
+        "Creative": {
+          "AllowSkipChainOnClick": true
+        }
+      }
+    }
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Structures/Base_Shapes/HalfBlock.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Soil_Gravel_Mossy.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Block_Half",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils",
+        "ItemId": "Soil_Gravel", 
+        "DropList": {
+          "Container": {
+            "Type": "Multiple",
+            "Containers": [
+              {
+                "Weight": 50,
+                "$Comment": "In this case 'Weight' is interpreted as a percentage chance to spawn, so 20% chance",
+                "Type": "Single",
+                "Item": { "ItemId": "Soil_Gravel",
+                          "QuantityMax": 4,
+                          "QuantityMin": 1
+                }
+              },
+              {
+                "Type": "Single",
+                "Weight": 10,
+                "Item": { "ItemId": "Rock_Stone_Cobble" }
+              },
+              {
+                "Type": "Single",
+                "Weight":10,
+                "Item": {
+                  "ItemId": "Rubble_Stone",
+                  "QuantityMax": 4,
+                  "QuantityMin": 1
+                }
+              },
+              
+              {
+                "Type": "Single",
+                "Weight": 10,
+                "Item": {
+                  "ItemId": "Ingredient_Stick",
+                  "QuantityMin": 1,
+                  "QuantityMax": 2
+                }
+              },
+              {
+                "Type": "Single",
+                "Weight": 10,
+                "Item": {
+                  "ItemId": "Ingredient_Tree_Sap",
+                  "QuantityMin": 1,
+                  "QuantityMax": 1
+                }
+              },
+              {
+                "Type": "Single",
+                "Weight": 10,
+                "Item": {
+                  "ItemId": "Ingredient_Hide_Light",
+                  "QuantityMin": 1,
+                  "QuantityMax": 1
+                }
+              },
+              {
+                "Type": "Single",
+                "Weight": 5,
+                "Item": {
+                  "ItemId": "Ingredient_Hide_Medium",
+                  "QuantityMin": 1,
+                  "QuantityMax": 1
+                }
+              },
+              {
+                "Type": "Single",
+                "Weight": 2,
+                "Item": {
+                  "ItemId": "Ingredient_Hide_Heavy",
+                  "QuantityMin": 1,
+                  "QuantityMax": 1
+                }
+              }
+          
+            ]
+          }
+        }
+
+        
+      }
+    },
+    "VariantRotation": "DoublePipe",
+    "ParticleColor": "#68675a",
+    "State": {
+      "Definitions": {
+        "Block": {
+          "Material": "Solid",
+          "DrawType": "Cube",
+          "HitboxType": "Full",
+          "Textures": [
+            {
+              "All": "BlockTextures/Soil_Gravel_Sand.png",
+              "Weight": 1
+            }
+          ],
+          "Supporting": {
+            "BlockSides": [
+              {}
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Icon": "Icons/ItemsGenerated/Soil_Gravel_Mossy_Half.png"
+}

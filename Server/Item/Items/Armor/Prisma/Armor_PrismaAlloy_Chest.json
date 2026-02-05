@@ -1,0 +1,98 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Armor_PrismaAlloy_Chest.name"
+  },
+  "Parent": "Armor_Iron_Chest",
+  "Recipe": {
+    "Input": [],
+    "BenchRequirement": []
+  },
+  "Quality": "Epic",
+  "ItemLevel": 75,
+  "Icon": "Icons/ItemsGenerated/Armor_Prisma_Chest.png",
+  "IconProperties": {
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Scale": 0.3,
+    "Translation": [
+      -2.4,
+      -6
+    ]
+  },
+  "Model": "Items/Armors/Prisma/Chest.blockymodel",
+  "Texture": "Items/Armors/Prisma/Chest_Texture.png",
+  "Armor": {
+    "ArmorSlot": "Chest",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "Overtop"
+    ],
+     "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.312,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.312,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Poison": [
+        {
+          "Amount": 0.42,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 100,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Stamina": [
+        {
+          "Amount": 50,
+          "CalculationType": "Additive"
+        }
+      ],
+      "Oxygen": [
+        {
+          "Amount": 200,
+          "CalculationType": "Additive"
+        }
+      ],
+      "SignatureEnergy": [
+        {
+          "Amount": 45,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "DamageClassEnhancement": {
+      "Light": [
+        {
+          "Amount": 0.12,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 5000,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Onyxium"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy"
+}

@@ -1,0 +1,41 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ore_Thorium_Mud_Cracked.name"
+  },
+  "Parent": "Soil_Mud_Dry",
+  "Icon": "Icons/ItemsGenerated/Soil_Mud_Dry.png",
+  "BlockType": {
+    "Textures": [
+      {
+        "All": "BlockTextures/Soil_Mud_Dry.png",
+        "Weight": 1
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils",
+        "DropList": {
+          "Container": {
+            "Type": "Multiple",
+            "Containers": [
+              {
+                "Weight": 50,
+                "$Comment": "In this case 'Weight' is interpreted as a percentage chance to spawn, so 5% chance",
+                "Type": "Single",
+                "Item": { 
+                "ItemId": "Ore_Thorium",
+                          "QuantityMax": 4,
+                          "QuantityMin": 1
+                }
+              },
+              {
+                "Type": "Single",
+                "Item": { "ItemId": "Soil_Dirt" }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

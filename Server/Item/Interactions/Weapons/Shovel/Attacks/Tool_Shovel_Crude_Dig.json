@@ -1,0 +1,40 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemAnimationId": "Dig"
+  },
+  "$Comment": "Prepare Delay",
+  "RunTime": 0.083,
+  "Next": {
+    "Type": "Selector",
+    "RunTime": 0.1,
+    "Selector": {
+      "Id": "Stab",
+      "EndDistance": 2.5,
+      "ExtendTop": 0.1,
+      "ExtendBottom": 0.1,
+      "ExtendLeft": 1,
+      "YawOffset": 0,
+      "ExtendRight": 1,
+      "StartDistance": 0.5
+    },
+    "HitBlock": {
+      "Interactions": [
+        {
+          "Type": "Replace",
+          "Var": "Downstrike_Hit_Block",
+          "DefaultOk": true,
+          "DefaultValue": {
+            "Interactions": [
+              "Block_Break_Adventure"
+            ]
+          }
+        }
+      ]
+    },
+    "Next": {
+      "Type": "Simple",
+      "RunTime": 0.5
+    }
+  }
+}

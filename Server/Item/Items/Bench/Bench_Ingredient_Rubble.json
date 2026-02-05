@@ -1,0 +1,35 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ingredient_Stone_Rubble.name",
+    "Description": "server.items.Ingredient_Stone_Rubble.description"
+  },
+  "Variant": true,
+  "Parent": "Ingredient_Stone",
+  "ItemLevel": 1,
+  "Icon": "Icons/ItemsGenerated/Rock_Stone.png",
+  "Recipe": {
+    "TimeSeconds": 1,
+    "Input": [
+      {
+        "ResourceTypeId": "Rubble",
+        "Quantity": 9
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Rock_Stone",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Workbench",
+        "Categories": [
+          "Workbench_God"
+        ]
+      }
+    ],
+    "OutputQuantity": 3
+  }
+}

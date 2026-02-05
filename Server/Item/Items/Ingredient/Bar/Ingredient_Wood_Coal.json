@@ -1,0 +1,59 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Ingredient_Wood_Coal.name"
+  },
+  "Categories": [
+    "Items"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Wood_Trunk",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Processing",
+        "Id": "Furnace"
+      }
+    ],
+    "OutputQuantity": 4,
+    "TimeSeconds": 18
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Charcoal"
+    },
+    {
+        "Id": "Wood_Trunk"
+    }
+  ],
+  "Model": "Items/Rubble/Rubble.blockymodel",
+  "Texture": "Items/Rubble/Rubble_Textures/Charcoal.png",
+  "Icon": "Icons/ItemsGenerated/Rubble_Charcoal_Small.png",
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 1,
+    "Translation": [
+      0,
+      -3
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "ItemSoundSetId": "ISS_Items_Ingots",
+  "DropOnDeath": true
+}
+

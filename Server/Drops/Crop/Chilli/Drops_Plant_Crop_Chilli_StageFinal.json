@@ -1,0 +1,41 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "Plant_Crop_Chilli_Item",
+          "QuantityMin": 1,
+          "QuantityMax": 5
+        }
+      },
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "Ingredient_Life_Essence",
+          "QuantityMin": 6,
+          "QuantityMax": 8
+        }
+      },
+      {
+        "Type": "Single",
+        "Weight": 4,
+        "Item": {
+          "ItemId": "Plant_Seeds_Chilli_Eternal",
+          "QuantityMin": 1,
+          "QuantityMax": 2
+        }
+      },
+      {
+        "Type": "Single",
+        "Weight": 4,
+        "Item": {
+          "ItemId": "Plant_Seeds_Chilli",
+          "QuantityMin": 1,
+          "QuantityMax": 2
+        }
+      }
+    ]
+  }
+}

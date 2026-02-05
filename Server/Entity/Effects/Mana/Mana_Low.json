@@ -1,0 +1,7 @@
+{
+  "StatModifiers": {
+    "Mana": 5
+  },
+  "Duration": 20,
+  "OverlapBehavior": "Extend"
+}

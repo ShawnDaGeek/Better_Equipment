@@ -1,0 +1,373 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "RollsMin": 3,
+    "RollsMax": 10,
+    "Containers": [
+      {
+        "Type": "Choice",
+        "Weight": 100,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Plant_Fruit_Apple",
+            "QuantityMin": 1,
+            "QuantityMax": 1
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 100,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Plant_Fruit_Berries_Red",
+            "QuantityMin": 1,
+            "QuantityMax": 1
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 50,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ingredient_Hide_Light",
+            "QuantityMin": 1,
+            "QuantityMax": 5
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 40,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ingredient_Hide_Medium",
+            "QuantityMin": 1,
+            "QuantityMax": 5
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 20,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ingredient_Hide_Heavy",
+            "QuantityMin": 1,
+            "QuantityMax": 4
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 10,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ingredient_Hide_Soft",
+            "QuantityMin": 1,
+            "QuantityMax": 4
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 10,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ingredient_Hide_Dark",
+            "QuantityMin": 1,
+            "QuantityMax": 4
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 10,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ingredient_Chitin_Sturdy",
+            "QuantityMin": 1,
+            "QuantityMax": 4
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 75,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ingredient_Fabric_Scrap_Linen",
+            "QuantityMin": 1,
+            "QuantityMax": 4
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 50,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ingredient_Fabric_Scrap_Wool",
+            "QuantityMin": 1,
+            "QuantityMax": 4
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 25,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ingredient_Fabric_Scrap_Cotton",
+            "QuantityMin": 1,
+            "QuantityMax": 4
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 20,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ingredient_Fabric_Scrap_Shadoweave",
+            "QuantityMin": 1,
+            "QuantityMax": 4
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 10,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ingredient_Fabric_Scrap_Cindercloth",
+            "QuantityMin": 1,
+            "QuantityMax": 4
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 10,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ingredient_Fabric_Scrap_Silk",
+            "QuantityMin": 1,
+            "QuantityMax": 4
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 2,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ingredient_Fabric_Scrap_Prismaloom",
+            "QuantityMin": 1,
+            "QuantityMax": 4
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 100,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Weapon_Arrow_Crude",
+              "QuantityMin": 0,
+              "QuantityMax": 20
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 100,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ingredient_Salt",
+            "QuantityMin": 0,
+            "QuantityMax": 2
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 2,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ore_Adamantite",
+            "QuantityMin": 1,
+            "QuantityMax": 2
+          }
+          }
+        ]
+      }, 
+     {
+        "Type": "Choice",
+        "Weight": 25,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ore_Adamantite",
+            "QuantityMin": 1,
+            "QuantityMax": 2
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 35,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ore_Cobalt",
+            "QuantityMin": 1,
+            "QuantityMax": 3
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 55,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ore_Copper",
+            "QuantityMin": 1,
+            "QuantityMax": 4
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 25,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ore_Mithril",
+            "QuantityMin": 1,
+            "QuantityMax": 2
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 5,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ore_Onyxium",
+            "QuantityMin": 1,
+            "QuantityMax": 2
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 25,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ore_Silver",
+            "QuantityMin": 1,
+            "QuantityMax": 3
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 5,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ore_Prisma",
+            "QuantityMin": 1,
+            "QuantityMax": 2
+          }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 25,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Ore_Gold",
+            "QuantityMin": 1,
+            "QuantityMax": 3
+          }
+          }
+        ]
+      }
+    ]
+  }
+}

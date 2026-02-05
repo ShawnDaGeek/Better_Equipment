@@ -1,0 +1,25 @@
+{
+  "Input": [
+    {
+      "ItemId": "Armor_Thorium_Head",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Ingredient_Life_Essence_Concentrated",
+    "Quantity": 2
+  },
+  "Output": [
+    {
+      "ItemId": "Ingredient_Life_Essence_Concentrated",
+      "Quantity": 2
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Shippingbench"
+    }
+  ],
+  "TimeSeconds": 60
+}
