@@ -12,7 +12,7 @@ Adds a rebalance of Equipment and Resources for QOL.
 # ***Noteable Changes***
 
 **Changes worth mentioning.**
-- Glider
+- # Glider
    - Added Glider Max at Merchants.
      - Has operating Light when equiped.
      - Increase In speed at a cost of Stamina.
@@ -23,7 +23,7 @@ Adds a rebalance of Equipment and Resources for QOL.
 ![Glider Light](https://github.com/user-attachments/assets/728be803-497e-4130-ba47-81ea3b52b1ee)
 
 
-- Armor
+- # Armor
   - Added Alloy armor sets.
     - Better stats than normal armor.
   - Added Sets to Merchants for Epic and Legendary.
@@ -33,29 +33,29 @@ Adds a rebalance of Equipment and Resources for QOL.
 
 ![Amor Bench](https://github.com/user-attachments/assets/ffda120e-e84a-403c-9457-9b0fda992b56)
 
-- Merchants
+ - # Merchants
    - Updated Merchants in portal areas and villages.
      - Can buy and sell to merchants. Essence of Life is base economy.
     
-- Shipping
+ - # Shipping
   - Added recipes to Workbench, Shipping Tab.
     - Recipes include shipping crates that can be sold to merchants.   
 
 ![Shipping](https://github.com/user-attachments/assets/36a7f0fc-37b7-435c-80c7-f4bbe01220f6)
 ![Shipping](https://github.com/user-attachments/assets/0e9ebcc8-2fd9-48e2-80e6-2da219240497)
 
-- Loots and Drops
+- # Loots and Drops
   - Made crates and barrels drop better and more loots.
   - Mods drop better and more loots.
   - Dirt, sand, cobble, trees and ores all drop more and or better loots.
  
-- Farming
+- # Farming
   - Crops now have changes for more drops and seeds.  Supports the Essence of Life Economy.
  
-- Cooking
+- # Cooking
   - High teir foods at merchants.  
 
-- Water and water sources.
+- # Water and water sources.
    - Bucket now holds 5 sources of water instead of only one.  This allows for infinite water sources.
 
  ![Water Bucket](https://github.com/user-attachments/assets/35f7fa5e-8aad-4073-98df-ca1bda720787)
