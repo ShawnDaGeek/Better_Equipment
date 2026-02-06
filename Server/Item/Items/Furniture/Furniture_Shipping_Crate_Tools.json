@@ -1,0 +1,95 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Furniture_Shipping_Crate_Tools.name",
+    "Description": "server.items.Furniture_Shipping_Crate_Tools.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Furniture_Village_Crate.png",
+  "ItemLevel": 25,
+  "Quality": "Rare",
+  "Categories": [
+    "Furniture.Containers"
+  ],
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Furniture_Shipping_Crate",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Tool_Hatchet_Mithril",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Tool_Pickaxe_Mithril",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Tool_Hatchet_Thorium",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Tool_Pickaxe_Thorium",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Tool_Shovel_Thorium",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Tool_Hoe_Iron",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Furniture_Shipping_Crate_Tools",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Workbench",
+        "RequiredTierLevel": 2,
+        "Categories": [
+          "Workbench_Trade"
+          
+        ]
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Opacity": "Transparent",
+    "Group": "Props",
+    "RandomRotation": "YawStep1",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "BlockTextures/Furniture_Village_Crate.png"
+      }
+    ],
+    "ParticleColor": "#3f2720",
+    "BlockSoundSetId": "Wood"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Village"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

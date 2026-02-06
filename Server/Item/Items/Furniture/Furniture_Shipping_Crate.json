@@ -1,0 +1,83 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Furniture_Shipping_Crate.name",
+    "Description": "server.items.Furniture_Shipping_Crate.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Furniture_Village_Crate.png",
+  "Quality": "Common",
+  "ItemLevel": 5,
+  "Categories": [
+    "Furniture.Containers"
+  ],
+  "Recipe": {
+    "TimeSeconds": 5,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Stick",
+        "Quantity": 60
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Wool",
+        "Quantity": 12
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Furniture_Shipping_Crate",
+        "Quantity": 5
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Workbench",
+        "RequiredTierLevel": 2,
+        "Categories": [
+          "Workbench_Trade"
+          
+        ]
+      }
+    ],
+    "OutputQuantity": 5
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Opacity": "Transparent",
+    "Group": "Props",
+    "RandomRotation": "YawStep1",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "BlockTextures/Furniture_Village_Crate.png"
+      }
+    ],
+    "ParticleColor": "#3f2720",
+    "BlockSoundSetId": "Wood"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Village"
+    ]
+  },
+  "MaxStack": 50,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

@@ -138,6 +138,7 @@ benchCategories.workbench.survival = Survival
 benchCategories.workbench.housing = Housing
 benchCategories.workbench.tools = Tools
 benchCategories.workbench.tinkering = Tinkering
+benchCategories.workbench.trade = Trade
 
 benchCategories.furniture.seasonal = Seasonal
 benchCategories.furniture.storage = Storage
@@ -6036,11 +6037,22 @@ items.Rubble_Stone_Mossy_Medium.name = Mossy Stone Rubble - Medium
 items.Rubble_Volcanic.name = Volcanic Rubble
 items.Rubble_Volcanic.description = [TMP] Can also be acquired by breaking down cobble in a <item is="Bench_Salvage"/>.
 items.Rubble_Volcanic_Medium.name = Volcanic Rubble - Medium
+
+# === Trade and Shipping ===
+
 items.Shipping_Crate.name = Shipping Crate Empty
 items.Shipping_Crate.description = An empty shipping crate.
-items.Shipping_Crate_Armor.name = Shipping Crate of Armor
-items.Shipping_Crate_Weapons.name = Shipping Crate of Weaons
-items.Shipping_Crate_Tools.name = Shipping Crate of Tools
+
+items.Furniture_Shipping_Crate.name = Shipping Crate Empty
+items.Furniture_Shipping_Crate.description = An empty shipping crate.
+items.Furniture_Shipping_Crate_Armor.name = Shipping Crate Armor
+items.Furniture_Shipping_Crate_Armor.description = A shipping crate with an Armor set.
+items.Furniture_Shipping_Crate_Resources.name = Shipping Crate Resouces
+items.Furniture_Shipping_Crate_Resources.description = A shipping crate with a Resource set.
+items.Furniture_Shipping_Crate_Weapons.name = Shipping Crate Weapons
+items.Furniture_Shipping_Crate_Weapons.description = A shipping crate with a Weapons set.
+items.Furniture_Shipping_Crate_Tools.name = Shipping Crate Tools
+items.Furniture_Shipping_Crate_Tools.description = A shipping crate with a Tools set.
 items.Soil_Ash.name = Ashen Soil
 items.Soil_Clay.name = Clay
 items.Soil_Clay_Black.name = Black Clay
