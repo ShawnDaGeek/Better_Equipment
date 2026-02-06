@@ -722,7 +722,7 @@
     },
     {
       "Type": "Pool",
-      "SlotCount": 6,
+      "SlotCount": 12,
       "Trades": [
         {
           "Weight": 50,
@@ -759,6 +759,60 @@
           "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 120 },
           "Input": [{ "ItemId": "Furniture_Shipping_Crate_Armor", "Quantity": 1 }],
           "Stock": [100, 300]
+        },
+        {
+          "Weight": 50,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 60 },
+          "Input": [{ "ItemId": "Furniture_Shipping_Crate_Armor_Iron", "Quantity": 1 }],
+          "Stock": [100, 300]
+        },
+        {
+          "Weight": 50,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 80 },
+          "Input": [{ "ItemId": "Furniture_Shipping_Crate_Armor_Thorium", "Quantity": 1 }],
+          "Stock": [100, 300]
+        },
+        {
+          "Weight": 50,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 90 },
+          "Input": [{ "ItemId": "Furniture_Shipping_Crate_Armor_Cobalt", "Quantity": 1 }],
+          "Stock": [100, 300]
+        },
+        {
+          "Weight": 50,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 60 },
+          "Input": [{ "ItemId": "Furniture_Shipping_Crate_Weapons_Iron", "Quantity": 1 }],
+          "Stock": [100, 300]
+        },
+        {
+          "Weight": 50,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 90 },
+          "Input": [{ "ItemId": "Furniture_Shipping_Crate_Weapons_Cobalt", "Quantity": 1 }],
+          "Stock": [100, 300]
+        },
+        {
+          "Weight": 50,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 80 },
+          "Input": [{ "ItemId": "Furniture_Shipping_Crate_Weapons_Thorium", "Quantity": 1 }],
+          "Stock": [100, 300]
+        },
+        {
+          "Weight": 50,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 20 },
+          "Input": [{ "ItemId": "Furniture_Shipping_Crate_Tools_Iron", "Quantity": 1 }],
+          "Stock": [100, 200]
+        },
+        {
+          "Weight": 50,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 25 },
+          "Input": [{ "ItemId": "Furniture_Shipping_Crate_Tools_Thorium", "Quantity": 1 }],
+          "Stock": [100, 200]
+        },
+        {
+          "Weight": 50,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 30 },
+          "Input": [{ "ItemId": "Furniture_Shipping_Crate_Tools_Cobalt", "Quantity": 1 }],
+          "Stock": [100, 200]
         }
       ]
     }
