@@ -1,40 +1,73 @@
 # Better_Equipment for Hytale.
-
 Adds a rebalance of Equipment and Resources for QOL.  
+> [!TIP]
+> - Installing Mod to single player and multiplayer.
+>    - Locate install directory for your game `Hytale > UserData > Mods` for single player and extract below .zip into folder.
+>    - Locate mods directory for Server if multiplayer and add the below .zip
+> - Click image or link below, take note of how to download from the image.
+>    - https://github.com/ShawnDaGeek/Better_Equipment/blob/main/Better_Equipment.zip
 
-
-[<img width="1150" height="379" alt="2026-02-05 04_15_43-C__Users_shawn_Desktop_Git_Better_Equipment - File Explorer-000107" src="https://github.com/user-attachments/assets/c2f6ee84-c730-48df-b8dc-bf9b86355c7b" />](https://github.com/ShawnDaGeek/Better_Equipment/blob/main/Better_Equipment.zip)
+[![DownLoad](https://github.com/user-attachments/assets/c2f6ee84-c730-48df-b8dc-bf9b86355c7b)](https://github.com/ShawnDaGeek/Better_Equipment/blob/main/Better_Equipment.zip)
 
 # ***Noteable Changes***
 
 **Changes worth mentioning.**
-- Glider
-   - Added Glider Max at Merchant.
+- # Glider
+   - Added Glider Max at Merchants.
      - Has operating Light when equiped.
      - Increase In speed at a cost of Stamina.
      - Decrease in fall speed, for greater distance.
-    
-- Armor
+
+![Glider](https://github.com/user-attachments/assets/a27e1ed9-fb6a-41af-8c74-c8c02d3aa558)
+
+![Glider Light](https://github.com/user-attachments/assets/728be803-497e-4130-ba47-81ea3b52b1ee)
+
+
+- # Armor
   - Added Alloy armor sets.
     - Better stats than normal armor.
   - Added Sets to Merchants for Epic and Legendary.
     - Can be purchased from Merchants.
-   
-- Merchants
+
+![Armor](https://github.com/user-attachments/assets/0c2b3c0d-a672-4fb7-b44c-b4c71f820a2c)
+
+![Amor Bench](https://github.com/user-attachments/assets/ffda120e-e84a-403c-9457-9b0fda992b56)
+
+ - # Merchants
    - Updated Merchants in portal areas and villages.
      - Can buy and sell to merchants. Essence of Life is base economy.
     
-- Shipping
+ - # Shipping
   - Added recipes to Workbench, Shipping Tab.
-    - Recipes include shipping crates that can be sold to merchants.
-   
-- Loots and Drops
+    - Recipes include shipping crates that can be sold to merchants.   
+
+![Shipping](https://github.com/user-attachments/assets/36a7f0fc-37b7-435c-80c7-f4bbe01220f6)
+![Shipping](https://github.com/user-attachments/assets/0e9ebcc8-2fd9-48e2-80e6-2da219240497)
+
+- # Loots and Drops
   - Made crates and barrels drop better and more loots.
-  - Mods drop better and more loots.
+  - Mobs drop better and more loots.
   - Dirt, sand, cobble, trees and ores all drop more and or better loots.
  
-- Farming
+- # Farming
   - Crops now have changes for more drops and seeds.  Supports the Essence of Life Economy.
+
+![Farming](https://github.com/user-attachments/assets/e1dc22d0-5bac-433f-adc3-b7173e9cb98a)
  
-- Cooking
+- # Cooking
   - High teir foods at merchants.  
+
+- # Water and water sources.
+   - Bucket now holds 5 sources of water instead of only one.  This allows for infinite water sources.
+
+ ![Water Bucket](https://github.com/user-attachments/assets/35f7fa5e-8aad-4073-98df-ca1bda720787)
+
+> [!WARNING]
+> 
+># Mod adds new items.
+
+> [!WARNING]
+> 
+>## If removed, custom items will break.
+>## Re-Adding mod should restore any broke custom items.
+> 
