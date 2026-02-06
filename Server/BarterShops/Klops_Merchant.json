@@ -719,6 +719,48 @@
           "Stock": [100, 500]
         }
       ]
+    },
+    {
+      "Type": "Pool",
+      "SlotCount": 6,
+      "Trades": [
+        {
+          "Weight": 50,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 },
+          "Input": [{ "ItemId": "Furniture_Shipping_Crate_Resources", "Quantity": 1 }],
+          "Stock": [30]
+        },
+        {
+          "Weight": 50,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 25 },
+          "Input": [{ "ItemId": "Furniture_Shipping_Crate_Tools", "Quantity": 1 }],
+          "Stock": [100, 200]
+        },
+        {
+          "Weight": 50,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 75 },
+          "Input": [{ "ItemId": "Furniture_Shipping_Crate_Weapons", "Quantity": 1 }],
+          "Stock": [100, 300]
+        },
+        {
+          "Weight": 50,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 60 },
+          "Input": [{ "ItemId": "Furniture_Shipping_Crate_Armor", "Quantity": 1 }],
+          "Stock": [100, 300]
+        },
+        {
+          "Weight": 50,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 15 },
+          "Input": [{ "ItemId": "Furniture_Shipping_Crate_Resources", "Quantity": 1 }],
+          "Stock": [100, 200]
+        },
+        {
+          "Weight": 50,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 60 },
+          "Input": [{ "ItemId": "Furniture_Shipping_Crate_Armor", "Quantity": 1 }],
+          "Stock": [100, 300]
+        }
+      ]
     }
   ]
 }
