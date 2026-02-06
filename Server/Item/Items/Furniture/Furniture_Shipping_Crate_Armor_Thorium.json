@@ -1,0 +1,87 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Furniture_Shipping_Crate_Armor_Thorium.name",
+    "Description": "server.items.Furniture_Shipping_Crate_Armor.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Furniture_Village_Crate.png",
+  "Quality": "Rare",
+  "ItemLevel": 20,
+  "Categories": [
+    "Furniture.Containers"
+  ],
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Furniture_Shipping_Crate",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Armor_Thorium_Chest",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Armor_Thorium_Hands",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Armor_Thorium_Head",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Armor_Thorium_Legs",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Furniture_Shipping_Crate_Armor_Thorium",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Workbench",
+        "RequiredTierLevel": 3,
+        "Categories": [
+          "Workbench_Trade"
+          
+        ]
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Opacity": "Transparent",
+    "Group": "Props",
+    "RandomRotation": "YawStep1",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "BlockTextures/Furniture_Village_Crate.png"
+      }
+    ],
+    "ParticleColor": "#3f2720",
+    "BlockSoundSetId": "Wood"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Village"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

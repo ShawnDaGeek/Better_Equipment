@@ -5,7 +5,7 @@
   },
   "Icon": "Icons/ItemsGenerated/Furniture_Village_Crate.png",
   "Quality": "Epic",
-  "ItemLevel": 70,
+  "ItemLevel": 90,
   "Categories": [
     "Furniture.Containers"
   ],
@@ -33,7 +33,7 @@
         "Quantity": 1
       },
       {
-        "ItemId": "Weapon_Spear_Mithril",
+        "ItemId": "Weapon_Daggers_Mithril",
         "Quantity": 1
       }
     ],

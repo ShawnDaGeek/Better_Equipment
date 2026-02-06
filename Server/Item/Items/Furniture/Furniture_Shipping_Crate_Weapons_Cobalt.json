@@ -1,0 +1,91 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Furniture_Shipping_Crate_Weapons_Cobalt.name",
+    "Description": "server.items.Furniture_Shipping_Crate_Weapons.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Furniture_Village_Crate.png",
+  "Quality": "Rare",
+  "ItemLevel": 40,
+  "Categories": [
+    "Furniture.Containers"
+  ],
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Furniture_Shipping_Crate",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Weapon_Axe_Cobalt",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Weapon_Club_Cobalt",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Weapon_Longsword_Cobalt",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Weapon_Spear_Cobalt",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Weapon_Daggers_Cobalt",
+        "Quantity": 1
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Furniture_Shipping_Crate_Weapons_Cobalt",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Workbench",
+        "RequiredTierLevel": 3,
+        "Categories": [
+          "Workbench_Trade"
+          
+        ]
+      }
+    ],
+    "OutputQuantity": 1
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Opacity": "Transparent",
+    "Group": "Props",
+    "RandomRotation": "YawStep1",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "BlockTextures/Furniture_Village_Crate.png"
+      }
+    ],
+    "ParticleColor": "#3f2720",
+    "BlockSoundSetId": "Wood"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Village"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Blocks_Wood"
+}

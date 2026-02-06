@@ -6045,14 +6045,28 @@ items.Shipping_Crate.description = An empty shipping crate.
 
 items.Furniture_Shipping_Crate.name = Shipping Crate Empty
 items.Furniture_Shipping_Crate.description = An empty shipping crate.
-items.Furniture_Shipping_Crate_Armor.name = Shipping Crate Armor
+items.Furniture_Shipping_Crate_Armor.name = Shipping Crate of Mithril Armor
+items.Furniture_Shipping_Crate_Armor_Cobalt.name = Shipping Crate of Cobalt Armor
+items.Furniture_Shipping_Crate_Armor_Thorium.name = Shipping Crate of Thorium Armor
+items.Furniture_Shipping_Crate_Armor_Iron.name = Shipping Crate of Iron Armor
 items.Furniture_Shipping_Crate_Armor.description = A shipping crate with an Armor set.
+
 items.Furniture_Shipping_Crate_Resources.name = Shipping Crate Resouces
 items.Furniture_Shipping_Crate_Resources.description = A shipping crate with a Resource set.
-items.Furniture_Shipping_Crate_Weapons.name = Shipping Crate Weapons
+
+items.Furniture_Shipping_Crate_Weapons.name = Shipping Crate of Mithril Weapons
+items.Furniture_Shipping_Crate_Weapons_Cobalt.name = Shipping Crate of Cobalt Weapons
+items.Furniture_Shipping_Crate_Weapons_Thorium.name = Shipping Crate of Thorium Weapons
+items.Furniture_Shipping_Crate_Weapons_Iron.name = Shipping Crate of Iron Weapons
 items.Furniture_Shipping_Crate_Weapons.description = A shipping crate with a Weapons set.
-items.Furniture_Shipping_Crate_Tools.name = Shipping Crate Tools
+
+items.Furniture_Shipping_Crate_Tools.name = Shipping Crate of Mithril Tools
+items.Furniture_Shipping_Crate_Tools_Cobalt.name = Shipping Crate of Cobalt Tools
+items.Furniture_Shipping_Crate_Tools_Thorium.name = Shipping Crate of Thorium Tools
+items.Furniture_Shipping_Crate_Tools_Iron.name = Shipping Crate of Iron Tools
 items.Furniture_Shipping_Crate_Tools.description = A shipping crate with a Tools set.
+
+
 items.Soil_Ash.name = Ashen Soil
 items.Soil_Clay.name = Clay
 items.Soil_Clay_Black.name = Black Clay
