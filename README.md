@@ -51,6 +51,8 @@ Adds a rebalance of Equipment and Resources for QOL.
  
 - # Farming
   - Crops now have changes for more drops and seeds.  Supports the Essence of Life Economy.
+
+![Farming](https://github.com/user-attachments/assets/e1dc22d0-5bac-433f-adc3-b7173e9cb98a)
  
 - # Cooking
   - High teir foods at merchants.  
