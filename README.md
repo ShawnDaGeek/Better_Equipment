@@ -54,3 +54,9 @@ Adds a rebalance of Equipment and Resources for QOL.
  
 - Cooking
   - High teir foods at merchants.  
+
+- Water and water sources.
+   - Bucket now holds 5 sources of water instead of only one.  This allows for infinite water sources.
+
+ ![Water Bucket](https://github.com/user-attachments/assets/35f7fa5e-8aad-4073-98df-ca1bda720787)
+
