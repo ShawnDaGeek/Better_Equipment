@@ -62,3 +62,12 @@ Adds a rebalance of Equipment and Resources for QOL.
 
  ![Water Bucket](https://github.com/user-attachments/assets/35f7fa5e-8aad-4073-98df-ca1bda720787)
 
+> [!WARNING]
+> 
+># Mod adds new items.
+
+> [!WARNING]
+> 
+>## If removed, custom items will break.
+>## Re-Adding mod should restore any broke custom items.
+> 
