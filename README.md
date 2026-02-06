@@ -31,6 +31,8 @@ Adds a rebalance of Equipment and Resources for QOL.
 
 ![Armor](https://github.com/user-attachments/assets/0c2b3c0d-a672-4fb7-b44c-b4c71f820a2c)
 
+![Amor Bench](https://github.com/user-attachments/assets/ffda120e-e84a-403c-9457-9b0fda992b56)
+
 - Merchants
    - Updated Merchants in portal areas and villages.
      - Can buy and sell to merchants. Essence of Life is base economy.
