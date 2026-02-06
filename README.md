@@ -46,7 +46,7 @@ Adds a rebalance of Equipment and Resources for QOL.
 
 - # Loots and Drops
   - Made crates and barrels drop better and more loots.
-  - Mods drop better and more loots.
+  - Mobs drop better and more loots.
   - Dirt, sand, cobble, trees and ores all drop more and or better loots.
  
 - # Farming
