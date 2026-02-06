@@ -19,7 +19,10 @@ Adds a rebalance of Equipment and Resources for QOL.
      - Decrease in fall speed, for greater distance.
 
 ![Glider](https://github.com/user-attachments/assets/a27e1ed9-fb6a-41af-8c74-c8c02d3aa558)
-    
+
+![Glider Light](https://github.com/user-attachments/assets/728be803-497e-4130-ba47-81ea3b52b1ee)
+
+
 - Armor
   - Added Alloy armor sets.
     - Better stats than normal armor.
