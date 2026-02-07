@@ -64,19 +64,19 @@
     "DamageResistance": {
       "Physical": [
         {
-          "Amount": 0.18,
+          "Amount": 0.162,
           "CalculationType": "Multiplicative"
         }
       ],
       "Projectile": [
         {
-          "Amount": 0.18,
+          "Amount": 0.162,
           "CalculationType": "Multiplicative"
         }
       ],
       "Poison": [
         {
-          "Amount": 0.32,
+          "Amount": 0.162,
           "CalculationType": "Multiplicative"
         }
       ]

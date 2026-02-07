@@ -64,13 +64,13 @@
     "DamageResistance": {
       "Physical": [
         {
-          "Amount": 0.08,
+          "Amount": 0.11,
           "CalculationType": "Multiplicative"
         }
       ],
       "Projectile": [
         {
-          "Amount": 0.08,
+          "Amount": 0.11,
           "CalculationType": "Multiplicative"
         }
       ]
