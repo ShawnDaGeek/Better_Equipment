@@ -9,7 +9,7 @@
       "Type": "Fixed",
       "Trade": {
         "Output": { "ItemId": "Weapon_Gun", "Quantity": 1 },
-        "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 50 }],
+        "Input": [{ "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 1000 }],
         "Stock": 10
       }
     },
@@ -722,8 +722,14 @@
     },
     {
       "Type": "Pool",
-      "SlotCount": 12,
+      "SlotCount": 15,
       "Trades": [
+        {
+          "Weight": 50,
+          "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 10 },
+          "Input": [{ "ItemId": "Furniture_Shipping_Crate_Salted_Meat", "Quantity": 1 }],
+          "Stock": [60]
+        },
         {
           "Weight": 50,
           "Output": { "ItemId": "Ingredient_Life_Essence_Concentrated", "Quantity": 20 },
