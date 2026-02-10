@@ -6053,7 +6053,8 @@ items.Furniture_Shipping_Crate_Armor.description = A shipping crate with an Armo
 
 items.Furniture_Shipping_Crate_Resources.name = Shipping Crate Resouces
 items.Furniture_Shipping_Crate_Resources.description = A shipping crate with a Resource set.
-items.Furniture_Shipping_Crate_Salted_Meat.name = Shipping Crate with meat, vegitables, and salt.
+items.Furniture_Shipping_Crate_Salted_Meat.name = Shipping Crate with meat, vegies, and salt.
+items.Furniture_Shipping_Crate_Salted_Fish.name = Shipping Crate with fish, vegies, and salt.
 
 items.Furniture_Shipping_Crate_Weapons.name = Shipping Crate of Mithril Weapons
 items.Furniture_Shipping_Crate_Weapons_Cobalt.name = Shipping Crate of Cobalt Weapons
